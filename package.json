@@ -4,7 +4,7 @@
   "description": "Node Js complete course from basic to advance",
   "license": "ISC",
   "author": "Rohit",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
