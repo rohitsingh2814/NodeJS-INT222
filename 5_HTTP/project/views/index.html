@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Welcome to file mangement Website</h1>
+
+
+    <div style=" display:flex; justify-content:  space-between; align-items: center;  padding: 200px;">
+        <a href="/create">
+            <button>Create</button>
+        </a>
+
+        <a href="/read">
+            <button>Read File</button>
+        </a>
+
+        <a href="/append">
+            <button>Append File</button>
+        </a>
+
+        <a href="/delete">
+            <button>Delete File</button>
+        </a>
+
+       
+
+    </div>
+
+    <div id="createform" style="display: none;">
+    <form action="/create-file" method="post">
+        
+    <label for="filename">filename:</label>
+    <input type="text" name="filename" placeholder="filename...">
+
+    <label for="content">filename:</label>
+    <textarea name="content"></textarea>
+
+    <button>create file</button>
+    </form> 
+    </div>
+
+
+
+
+</body>
+
+</html>
