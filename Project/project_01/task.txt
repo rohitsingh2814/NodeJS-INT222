@@ -1,0 +1,17 @@
+rest api -json
+
+GET /user - List all the user
+GET /user/1 -show user eith paseed 1
+GET /user/2 -show user eith paseed 2
+
+GET /user/:id ->Dyanmic route
+
+:id->variable
+
+POST /user - Ceate new user
+
+
+
+PATCH /user/1 -Edit the user the data;
+
+DELETE /user/1 -delete the user from database
